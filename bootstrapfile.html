@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Grey with black text -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://www.cbit.ac.in/">CBIT</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="https://www.google.com/">Google</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container-fluid p-5 bg-danger text-white text-center">
+  <h1>this is first time bootstrap using page</h1>
+  <p>Kushal Rathi</p> 
+  <img src="https://www.careerindia.com/img/2020/10/neettopper2020-1602761932.jpg" alt="fsd img" height="20%" width="20%">
+</div>
+<div class="container mt-5">
+    <h2>Button </h2>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <button type="button" class="btn btn-outline-light text-dark">Light</button>
+  </div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>cricket</h3> <span class="badge rounded-pill bg-primary">Primary</span>
+      <p>Cricket is a sport which is played between two teams of eleven players each. One team, which is batting, tries to score runs, while the other team is fielding, and tries to prevent this. </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Google</h3> <span class="badge rounded-pill bg-secondary">Warning</span>
+        <p>it is a search engine where students gather information and the world woul stop if this goes down</p>
+    </div>
+  </div>
+</div>
+<div class="container mt-5">
+    <h2>Table</h2>            
+    <table class="table table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>CGPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>9.6</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>5.6</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>7.8</td>
+          </tr>
+        </tbody>
+      </table>
+    <div class="container mt-5">
+    <h3>Form</h3>
+      <form action="/action_page.php">
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+</body>
+</html>
